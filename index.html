@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="bootstrap-5.3.3/js/bootstrap.min.js"></script>
+    
+    <title>Auth | Bootstrap</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="/home.html" id="login-form" method="post" class="form-horizontal">
+            <div id="login-alert" class=""></div>
+            <h1>Login </h1>
+            <div class="input-box">
+                <div class="input-box">
+                    <input type="text" name="username"
+                    required id="login-username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <input type="password" required name="password" id="login-password" placeholder="Password">
+                </div>
+                <div class="forget-password">
+                    <button class="btn btn-success" id="login-btn" type="submit"> 
+                        <span id="login-span" class=""></span>    
+                        Login
+                    </button>
+                </div>
+                <div class="sign-up">
+                    <p >Don't have an account?<a href="/reg.html">Register Here</a></p>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
