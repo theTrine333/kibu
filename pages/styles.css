@@ -322,6 +322,7 @@ footer p {
 /* Button Styles */
 .btn {
   display: inline-block;
+  margin-top: 5px;
   padding: 10px 15px;
   background-color: #007bff;
   color: #fff;
@@ -332,4 +333,42 @@ footer p {
 
 .btn:hover {
   background-color: #0056b3; /* Darker blue on hover */
+}
+
+.contact {
+  max-width: 600px; /* Set a max width for the contact form */
+  margin: 0 auto; /* Center the form */
+}
+
+.contact h1 {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px; /* Spacing between form groups */
+}
+
+.form-group label {
+  display: block; /* Make labels block elements */
+  margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding for inputs */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border styling */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff; /* Highlight border on focus */
+}
+
+main {
+  padding: 20px 40px;
 }

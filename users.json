@@ -12,5 +12,12 @@
     "username": "Ericko",
     "password": "Ericko@004",
     "phone-number": "0795514454"
+  },
+  {
+    "email": "guest@gmail.com",
+    "fullname": "Guest Guest",
+    "username": "Guest",
+    "password": "Guest",
+    "phone-number": ""
   }
 ]
