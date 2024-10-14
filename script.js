@@ -27,7 +27,7 @@ function authenticateUser(usernameOrEmail, password) {
     "spinner-border spinner-border-sm";
   document.getElementById("login-alert").className = "";
 
-  fetch("users.json")
+  fetch("auth.json")
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
